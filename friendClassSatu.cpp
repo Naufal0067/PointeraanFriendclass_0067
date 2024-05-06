@@ -28,11 +28,11 @@ void siswa::displaAll(orang &a)
     cout << id << endl
          << a.nama;
 }
-void orang::setId(int pId)
+void orang::setNama(string pNama)
 {
     nama = pNama;
 }
-void siswa::serId(int pId)
+void siswa::setId(int pId)
 {
     id = pId;
 }
